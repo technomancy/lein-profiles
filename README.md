@@ -6,11 +6,11 @@ Profiles, backported from Leiningen 2 for your enjoyment.
 
     $ lein plugin install lein-profiles 0.1.0
     
-    ```clj
-    ;; Add this to ~/.lein/init.clj
-    (try (require 'leiningen.hooks.profiles)
-         (catch java.io.FileNotFoundException _))
-     ```
+```clj
+;; Add this to ~/.lein/init.clj
+(try (require 'leiningen.hooks.profiles)
+     (catch java.io.FileNotFoundException _))
+```
 
 For details on how profiles work, see the README for Leiningen 2. By
 default the :dev and :user profiles are active; this can be changed
